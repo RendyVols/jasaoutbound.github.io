@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malang Adventure Outbound</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome (untuk ikon) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  .hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/outbound_malang.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+  }
+  .btn-orange {
+    background-color: #FF6B35;
+    border-color: #FF6B35;
+  }
+  .btn-orange:hover {
+    background-color: #e05a2b;
+    border-color: #e05a2b;
+  }
+  .feature-icon {
+    font-size: 2.5rem;
+    color: #28a745;
+  }
+  .footer-bg {
+    background-color: #2c3e50;
+    color: white;
+  }
+  /* Pastikan object-fit-cover bekerja */
+  .object-fit-cover {
+    object-fit: cover;
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Malang Adventure</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="#packages">Paket</a></li>
+        <li class="nav-item"><a class="nav-link" href="#locations">Lokasi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Galeri</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+      </ul>
+      <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-orange ms-3">Pesan Sekarang!</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero d-flex align-items-center justify-content-center text-center">
+  <div>
+    <h1 class="display-4 fw-bold">Outbound Seru & Edukatif di Kota Malang</h1>
+    <p class="lead mt-3">Bangun teamwork, leadership, dan kepercayaan diri melalui pengalaman alam yang tak terlupakan.</p>
+    <div class="mt-4">
+      <a href="#packages" class="btn btn-orange btn-lg me-3">Lihat Paket</a>
+      <a href="#contact" class="btn btn-outline-light btn-lg">Hubungi Kami</a>
+    </div>
+  </div>
+</section>
+
+<!-- Tentang Outbound Kota Malang -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4">
+        <img src="images/outbound.webp" 
+             class="img-fluid rounded shadow" alt="Outbound di Malang">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Outbound di Kota Malang</h2>
+        <p class="text-justify">
+          Kota Malang dan sekitarnya (Batu, Tumpang, Lawang) dikenal sebagai salah satu destinasi outbound terbaik di Jawa Timur. 
+          Dengan udara sejuk, pemandangan alam yang indah, serta medan yang variatif — dari perbukitan, hutan pinus, hingga area persawahan — 
+          Malang menjadi lokasi ideal untuk kegiatan pengembangan karakter, team building, dan edukasi luar ruang.
+        </p>
+        <p class="text-justify">
+          Outbound di Malang tidak hanya seru, tetapi juga sarat nilai: kerja sama, kepemimpinan, keberanian, dan kepercayaan diri. 
+          Cocok untuk perusahaan, sekolah, organisasi, maupun keluarga yang ingin mempererat hubungan melalui pengalaman bersama di alam terbuka.
+        </p>
+        <a href="#packages" class="btn btn-orange mt-3">Lihat Paket Outbound</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Keunggulan -->
+<section id="features" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Mengapa Memilih Kami?</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="feature-icon mb-3"><i class="fas fa-user-tie"></i></div>
+        <h5>Fasilitator Profesional</h5>
+        <p>Bersertifikat dan berpengalaman lebih dari 5 tahun.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-icon mb-3"><i class="fas fa-map-marked-alt"></i></div>
+        <h5>Lokasi Strategis</h5>
+        <p>Akses mudah di Malang Raya: Batu, Tumpang, hingga Coban Rondo.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-icon mb-3"><i class="fas fa-shield-alt"></i></div>
+        <h5>Safety Terjamin</h5>
+        <p>Perlengkapan lengkap dan asuransi peserta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paket Unggulan -->
+<section id="packages" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Paket Outbound Populer</h2>
+    <div class="row">
+      <!-- Paket 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Corporate Team Building</h5>
+            <p class="text-muted">Full Day | Min. 20 Orang</p>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check text-success"></i> Ice Breaking & Team Games</li>
+              <li><i class="fas fa-check text-success"></i> Makan 2x + Snack</li>
+              <li><i class="fas fa-check text-success"></i> Dokumentasi</li>
+            </ul>
+            <h5 class="mt-3">Mulai dari <strong>Rp 185.000/orang</strong></h5>
+            <a href="#contact" class="btn btn-orange mt-3">Booking Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <!-- Paket 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">School Adventure</h5>
+            <p class="text-muted">Half Day | SD/SMP/SMA</p>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check text-success"></i> Edukasi Alam & Karakter</li>
+              <li><i class="fas fa-check text-success"></i> Flying Fox & Jembatan Tali</li>
+              <li><i class="fas fa-check text-success"></i> Asuransi Siswa</li>
+            </ul>
+            <h5 class="mt-3">Mulai dari <strong>Rp 125.000/orang</strong></h5>
+            <a href="#contact" class="btn btn-orange mt-3">Booking Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <!-- Paket 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Family Fun Day</h5>
+            <p class="text-muted">Weekend | Cocok untuk Keluarga</p>
+            <ul class="list-unstyled">
+              <li><i class="fas fa-check text-success"></i> Aktivitas Ringan & Seru</li>
+              <li><i class="fas fa-check text-success"></i> BBQ & Api Unggun</li>
+              <li><i class="fas fa-check text-success"></i> Area Camping Nyaman</li>
+            </ul>
+            <h5 class="mt-3">Mulai dari <strong>Rp 250.000/orang</strong></h5>
+            <a href="#contact" class="btn btn-orange mt-3">Booking Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="#contact" class="btn btn-outline-secondary">Lihat Semua Paket</a>
+    </div>
+  </div>
+</section>
+
+<!-- Lokasi Kegiatan -->
+<section id="locations" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Lokasi Kegiatan Favorit</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <img src="images/coban_rondo.webp" class="card-img-top" alt="Coban Rondo">
+          <div class="card-body">
+            <h5>Coban Rondo</h5>
+            <p>Area outbound dengan pemandangan air terjun dan udara sejuk.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <img src="images/gunung_panderman.webp" class="card-img-top" alt="Gunung Panderman">
+          <div class="card-body">
+            <h5>Gunung Panderman</h5>
+            <p>Trekking ringan dengan tantangan team building di ketinggian.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Galeri -->
+<section id="gallery" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Galeri Aktivitas</h2>
+    <div class="row g-3">
+      <div class="col-md-4 col-sm-6">
+        <div class="ratio ratio-4x3 overflow-hidden rounded shadow">
+          <img src="images/FlyingFox.webp" class="w-100 h-100 object-fit-cover" alt="Flying Fox">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="ratio ratio-4x3 overflow-hidden rounded shadow">
+          <img src="images/team_game.webp" class="w-100 h-100 object-fit-cover" alt="Team Game">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="ratio ratio-4x3 overflow-hidden rounded shadow">
+          <img src="images/api_unggun.webp" class="w-100 h-100 object-fit-cover" alt="Api Unggun">
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <a href="#" class="btn btn-outline-secondary">Lihat Semua Foto</a>
+    </div>
+  </div>
+</section>
+
+<!-- Testimoni -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Apa Kata Mereka?</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <p class="fst-italic">“Tim kami jadi lebih solid dan komunikatif setelah mengikuti outbound di sini. Fasilitator sangat profesional!”</p>
+            <h6 class="mt-3">— Budi Santoso, HRD PT Maju Bersama</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Akhir -->
+<section class="py-5 text-center bg-primary text-white">
+  <div class="container">
+    <h2 class="fw-bold">Siap Membangun Tim yang Lebih Kuat?</h2>
+    <p class="lead">Konsultasi gratis tanpa biaya!</p>
+    <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-warning btn-lg fw-bold mt-3">Konsultasi Gratis Sekarang!</a>
+  </div>
+</section>
+
+<!-- Kontak -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Hubungi Kami</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Email" required>
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control" placeholder="Nomor WhatsApp" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Kebutuhan (jenis peserta, jumlah, tanggal, dll)" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-orange">Kirim Permintaan</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h5 class="mb-3">Info Kontak</h5>
+        <p><i class="fas fa-map-marker-alt me-2"></i> Jl. Outbound No. 123, Kota Malang, Jawa Timur</p>
+        <p><i class="fab fa-whatsapp me-2"></i> <a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890</a></p>
+        <p><i class="fas fa-envelope me-2"></i> info@malangadventure.com</p>
+        <h5 class="mt-4">Ikuti Kami</h5>
+        <a href="#" class="me-3"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#" class="me-3"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-tiktok fa-2x"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="footer-bg py-4">
+  <div class="container">
+    <div class="row">
+      <!-- Kolom Kiri: Info Perusahaan -->
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h5 class="fw-bold">Malang Adventure Outbound</h5>
+        <p class="small">Penyedia jasa outbound terpercaya di Malang sejak 2018.</p>
+        <p class="small">
+          <i class="fas fa-map-marker-alt me-2"></i> Jl. Outbound No. 123,<br>
+          Kota Malang, Jawa Timur
+        </p>
+      </div>
+
+      <!-- Kolom Tengah: Navigasi -->
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h5 class="fw-bold">Navigasi</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-white text-decoration-none">Beranda</a></li>
+          <li><a href="#about-outbound" class="text-white text-decoration-none">Tentang Outbound</a></li>
+          <li><a href="#packages" class="text-white text-decoration-none">Paket & Harga</a></li>
+          <li><a href="#locations" class="text-white text-decoration-none">Lokasi</a></li>
+          <li><a href="#gallery" class="text-white text-decoration-none">Galeri</a></li>
+          <li><a href="#contact" class="text-white text-decoration-none">Kontak</a></li>
+        </ul>
+      </div>
+
+      <!-- Kolom Kanan: Sosial Media -->
+      <div class="col-md-4">
+        <h5 class="fw-bold">Ikuti Kami</h5>
+        <p class="small">Dapatkan update promo dan kegiatan terbaru!</p>
+        <div class="d-flex gap-3 mt-2">
+          <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white fs-4"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white fs-4"><i class="fab fa-tiktok"></i></a>
+          <a href="#" class="text-white fs-4"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4" style="background:white; opacity:0.2;">
+
+    <div class="text-center small">
+      &copy; 2026 Malang Adventure Outbound. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scroll to Top Button -->
+<a href="#" 
+   id="scrollToTop" 
+   class="position-fixed bottom-0 end-0 m-4 btn rounded-circle shadow"
+   style="width: 60px; height: 60px; background-color: #25D366; color: white; z-index: 1001; display: none;"
+   onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+  <i class="fas fa-arrow-up fa-lg"></i>
+</a>
+
+<!-- Floating WhatsApp Button (TIDAK DIUBAH - PERSIS SEPERTI KODE ANDA) -->
+<a href="https://wa.me/6281234567890" target="_blank"
+   class="position-fixed bottom-0 end-0 m-4 btn btn-success rounded-circle shadow"
+   style="width: 60px; height: 60px; z-index: 1000;">
+  <i class="fab fa-whatsapp fa-2x"></i>
+</a>
+
+<!-- JavaScript untuk Show/Hide Scroll to Top -->
+<script>
+  window.addEventListener('scroll', function() {
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+    if (window.pageYOffset > 300) {
+      scrollToTopBtn.style.display = 'flex';
+      scrollToTopBtn.style.alignItems = 'center';
+      scrollToTopBtn.style.justifyContent = 'center';
+    } else {
+      scrollToTopBtn.style.display = 'none';
+    }
+  });
+</script>
+
+</body>
+</html>
